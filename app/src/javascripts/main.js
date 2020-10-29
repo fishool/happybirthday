@@ -24,7 +24,10 @@
         // init Swiper
         new Swiper('.swiper-container', {
             mousewheelControl: true,
-            effect: 'coverflow',    // slide, fade, coverflow or flip
+            effect: 'fade',    // slide, fade, coverflow or flip
+            fadeEffect: {
+              crossFade: true
+            },
             speed: 400,
             direction: 'vertical',
             fade: {
