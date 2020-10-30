@@ -74,8 +74,8 @@ Vue.component('countdown', {
 
     data() {
         return {
-            deadline: 'Nov 17, 2020 00:00:00',
-            // deadline: 'Nov 17, 2019 00:00:00',
+            // deadline: 'Nov 17, 2020 00:00:00',
+            deadline: 'Nov 17, 2019 00:00:00',
             days: '神',
             hours: '秘',
             minutes: '礼',
@@ -154,7 +154,11 @@ Vue.component('countdown', {
                             bgMusic.play();
                         }
                     }
+
                 });
+
+                $("title").html("生日快乐~");
+                $("#gift").addClass("gift-open") .removeClass("gift")
             }
         }, 1000);
     }
