@@ -157,7 +157,7 @@ Vue.component('countdown', {
 
                 });
 
-                $("title").html("生日快乐~");
+                $("title").html("臭臭生日快乐~");
                 $("#gift").addClass("gift-open") .removeClass("gift")
             }
         }, 1000);
