@@ -36,7 +36,7 @@
             width: 20%;
             height: 100%;
             position: absolute;
-            left: 6rem;
+            left: 6.5rem;
             margin: auto;
             background-image: url('../gif/button-image-left.gif');
             background-position: center;
@@ -46,7 +46,7 @@
             width: 20%;
             height: 100%;
             position: absolute;
-            right: 6rem;
+            right: 6.5rem;
             margin: auto;
             background-image: url('../gif/button-image-right.gif');
             background-position-x: center;
@@ -55,10 +55,12 @@
             background-repeat: no-repeat;
         }
         .button-image-center {
-            width: 100%;
+            width: 92%;
             height: 100%;
             position: absolute;
             margin: auto;
+            left: 1em;
+            bottom: 0rem;
             background-image: url('../images/button-image-center.png');
             background-position-x: center;
             background-position-y: top;

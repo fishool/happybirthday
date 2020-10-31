@@ -55,10 +55,12 @@
             background-repeat: no-repeat;
         }
         .button-image-center {
-            width: 100%;
+            width: 92%;
             height: 100%;
             position: absolute;
             margin: auto;
+            left: 1em;
+            bottom: 0rem;
             background-image: url('../images/button-image-center.png');
             background-position-x: center;
             background-position-y: top;
