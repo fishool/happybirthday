@@ -16,7 +16,7 @@ var sass = require('gulp-sass');
 var streamSeries = require('stream-series');
 var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglify');
-
+var inlineVue = require('vue-template-inline');
 var vendors = require('./config/vendors');
 
 
@@ -186,7 +186,7 @@ gulp.task('minify-css', function () {
 // uglify app/dist/javascripts/bundle.js and save as app/dist/javascripts/bundle.min.js
 gulp.task('uglify-js', function () {
     return gulp.src('app/dist/javascripts/bundle.js')
-        .pipe(uglify())
+        .pipe(inlineVue())
         .pipe(rename({
             suffix: '.min'
         }))
@@ -198,7 +198,7 @@ gulp.task('uglify-js', function () {
 gulp.task('inject-min', function () {
     var target = gulp.src('app/src/index.html');
     var assets = gulp.src([
-        'app/dist/stylesheets/bundle.min.css',
+        'app/dist/stylesheets/bundle.css',
         'app/dist/javascripts/bundle.min.js'
     ], {
         read: false
@@ -215,7 +215,7 @@ gulp.task('inject-min', function () {
 // delete app/dist/stylesheets/bundle.css and app/dist/javascripts/bundle.js
 gulp.task('del-bundle', function (cb) {
     return del([
-        'app/dist/stylesheets/bundle.css',
+        // 'app/dist/stylesheets/bundle.css',
         'app/dist/javascripts/bundle.js'
     ], cb);
 });
@@ -224,7 +224,7 @@ gulp.task('del-bundle', function (cb) {
 // inject the minified files to index.html
 // delete unminified files
 gulp.task('prod',  function (cb) {
-    runSequence(['minify-css', 'uglify-js'], ['inject-min', 'del-bundle'], cb);
+    runSequence(['uglify-js'], ['inject-min', 'del-bundle'], cb);
 });
 
 
