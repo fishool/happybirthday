@@ -58,14 +58,17 @@ Vue.component('countdown', {
         <p class="value">{{ seconds }}</p>
         <p class="label">seconds</p>
       </div>
-      <p class="text">to meet you</p>
+      <p class="text">~༺ 与 你 相 遇 ༻~</p>
     </div>
 
     <div v-show="expired" class="expired-timer timer">
       <div class="box">
         <div class="spacer"></div>
-        <p class="value">It's the great day</p>
-        <p class="label">I'll have you in my arms</p>
+        <p class="value">情以彼生，初不相离。</p>
+        <p class="value">旦逢良辰，顺颂时宜。</p>
+        <p class="value">生老贫富，及尔偕依。</p>
+        <p class="value">德音莫违，黾勉同息。</p>
+        <p class="label">~ʚ 此情可待 ɞ~</p>
       </div>
     </div>
 

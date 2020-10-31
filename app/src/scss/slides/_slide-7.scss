@@ -1,0 +1,26 @@
+.slide-7 {
+    .item-image1 {
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-image: url('../images/end.png');
+    }
+    .item-image2 {
+        width: 12rem;
+        height: 12rem;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 30rem;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-image: url('../gif/end-cake.gif');
+    }
+
+}

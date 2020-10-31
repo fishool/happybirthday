@@ -10,12 +10,12 @@
         left: 0;
         right: 0;
         margin: auto;
-        background-image: url('../images/github-2.png');
+        background-image: url('../images/person/2.jpg');
     }
     .item-text {
         width: 18rem;
         color: #fff;
-        font-size: 1.2rem;
+        font-size: 2rem;
         font-weight: bold;
         position: absolute;
         top: 24rem;
@@ -23,5 +23,47 @@
         right: 0;
         margin: 0 auto;
         text-align: center;
+    }
+    .button-image {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        bottom: 0rem;
+        margin: auto;
+
+        .button-image-left {
+            width: 20%;
+            height: 100%;
+            position: absolute;
+            left: 1.5rem;
+            margin: auto;
+            background-image: url('../gif/button-image-left.gif');
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .button-image-right {
+            width: 20%;
+            height: 100%;
+            position: absolute;
+            right: 1.5rem;
+            margin: auto;
+            background-image: url('../gif/button-image-right.gif');
+            background-position-x: center;
+            background-position-y: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .button-image-center {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            margin: auto;
+            background-image: url('../images/button-image-center.png');
+            background-position-x: center;
+            background-position-y: top;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
     }
 }
