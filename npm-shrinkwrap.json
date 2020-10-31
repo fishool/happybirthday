@@ -440,9 +440,9 @@
       "dev": true
     },
     "aws4": {
-      "version": "1.10.1",
-      "resolved": "https://registry.npm.taobao.org/aws4/download/aws4-1.10.1.tgz",
-      "integrity": "sha1-4eguTz6Zniz9YbFhKA0WoRH4ZCg=",
+      "version": "1.11.0",
+      "resolved": "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101385256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz",
+      "integrity": "sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=",
       "dev": true
     },
     "axios": {
@@ -1230,9 +1230,9 @@
       }
     },
     "caniuse-db": {
-      "version": "1.0.30001151",
-      "resolved": "https://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30001151.tgz?cache=0&sync_timestamp=1603514833394&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcaniuse-db%2Fdownload%2Fcaniuse-db-1.0.30001151.tgz",
-      "integrity": "sha1-+YFjWOy9Qw3PLrISk+b6a5n7rik=",
+      "version": "1.0.30001154",
+      "resolved": "https://registry.npm.taobao.org/caniuse-db/download/caniuse-db-1.0.30001154.tgz",
+      "integrity": "sha1-c9rgW4Pe/vCMDJOZSMBP7Z1AtUk=",
       "dev": true
     },
     "capture-stack-trace": {
@@ -1769,6 +1769,12 @@
       "version": "2.2.0",
       "resolved": "https://registry.npm.taobao.org/dateformat/download/dateformat-2.2.0.tgz",
       "integrity": "sha1-QGXiATz5+5Ft39gu+1Bq1MZ2kGI=",
+      "dev": true
+    },
+    "de-indent": {
+      "version": "1.0.2",
+      "resolved": "https://registry.npm.taobao.org/de-indent/download/de-indent-1.0.2.tgz",
+      "integrity": "sha1-sgOOhG3DO6pXlhKNCAS0VbjB4h0=",
       "dev": true
     },
     "debug": {
@@ -3071,9 +3077,9 @@
       "dev": true
     },
     "electron-to-chromium": {
-      "version": "1.3.584",
-      "resolved": "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.584.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.584.tgz",
-      "integrity": "sha1-UGz3uliVqvqCQYdqsChlS2H9nOs=",
+      "version": "1.3.585",
+      "resolved": "https://registry.npm.taobao.org/electron-to-chromium/download/electron-to-chromium-1.3.585.tgz?cache=0&sync_timestamp=1604088636901&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.585.tgz",
+      "integrity": "sha1-cc23Isc0iLlHWtHFcs9Dp2PvkIE=",
       "dev": true
     },
     "emoji-regex": {
@@ -5338,6 +5344,12 @@
         }
       }
     },
+    "he": {
+      "version": "1.2.0",
+      "resolved": "https://registry.npm.taobao.org/he/download/he-1.2.0.tgz",
+      "integrity": "sha1-hK5l+n6vsWX922FWauFLrwVmTw8=",
+      "dev": true
+    },
     "homedir-polyfill": {
       "version": "1.0.3",
       "resolved": "https://registry.npm.taobao.org/homedir-polyfill/download/homedir-polyfill-1.0.3.tgz",
@@ -7034,7 +7046,7 @@
     },
     "node-sass": {
       "version": "4.14.1",
-      "resolved": "https://registry.npm.taobao.org/node-sass/download/node-sass-4.14.1.tgz",
+      "resolved": "https://registry.npm.taobao.org/node-sass/download/node-sass-4.14.1.tgz?cache=0&sync_timestamp=1604150630345&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnode-sass%2Fdownload%2Fnode-sass-4.14.1.tgz",
       "integrity": "sha1-mch+wu+3BH7WOPtMnbfzpC4iF7U=",
       "dev": true,
       "requires": {
@@ -8814,7 +8826,7 @@
     },
     "socket.io": {
       "version": "2.1.1",
-      "resolved": "https://registry.npm.taobao.org/socket.io/download/socket.io-2.1.1.tgz",
+      "resolved": "https://registry.npm.taobao.org/socket.io/download/socket.io-2.1.1.tgz?cache=0&sync_timestamp=1604094186143&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsocket.io%2Fdownload%2Fsocket.io-2.1.1.tgz",
       "integrity": "sha1-oGnF/qvuPmshSnW0DOBlLhz7mYA=",
       "dev": true,
       "requires": {
@@ -8890,7 +8902,7 @@
         },
         "socket.io-client": {
           "version": "2.1.1",
-          "resolved": "https://registry.npm.taobao.org/socket.io-client/download/socket.io-client-2.1.1.tgz",
+          "resolved": "https://registry.npm.taobao.org/socket.io-client/download/socket.io-client-2.1.1.tgz?cache=0&sync_timestamp=1604094190586&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsocket.io-client%2Fdownload%2Fsocket.io-client-2.1.1.tgz",
           "integrity": "sha1-3LOBA0NqtFeN2wJmOK4vIbYjZx8=",
           "dev": true,
           "requires": {
@@ -8942,7 +8954,7 @@
     },
     "socket.io-client": {
       "version": "2.3.1",
-      "resolved": "https://registry.npm.taobao.org/socket.io-client/download/socket.io-client-2.3.1.tgz",
+      "resolved": "https://registry.npm.taobao.org/socket.io-client/download/socket.io-client-2.3.1.tgz?cache=0&sync_timestamp=1604094190586&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsocket.io-client%2Fdownload%2Fsocket.io-client-2.3.1.tgz",
       "integrity": "sha1-kaQDjvTQPBmWe7PGRv7G4OqnjP8=",
       "dev": true,
       "requires": {
@@ -9486,7 +9498,7 @@
     },
     "swiper": {
       "version": "3.4.2",
-      "resolved": "https://registry.npm.taobao.org/swiper/download/swiper-3.4.2.tgz?cache=0&sync_timestamp=1603206940796&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fswiper%2Fdownload%2Fswiper-3.4.2.tgz",
+      "resolved": "https://registry.npm.taobao.org/swiper/download/swiper-3.4.2.tgz?cache=0&sync_timestamp=1604063109825&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fswiper%2Fdownload%2Fswiper-3.4.2.tgz",
       "integrity": "sha1-Oda0ELGjmDPh9y07cpmd9fXjg5I="
     },
     "symbol-observable": {
@@ -10342,6 +10354,34 @@
       "dev": true,
       "requires": {
         "indexof": "0.0.1"
+      }
+    },
+    "vue-template-compiler": {
+      "version": "2.6.12",
+      "resolved": "https://registry.npm.taobao.org/vue-template-compiler/download/vue-template-compiler-2.6.12.tgz?cache=0&sync_timestamp=1602239010008&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-template-compiler%2Fdownload%2Fvue-template-compiler-2.6.12.tgz",
+      "integrity": "sha1-lH7XGWdEyKUoXr4SM/6WBDf8xX4=",
+      "dev": true,
+      "requires": {
+        "de-indent": "^1.0.2",
+        "he": "^1.1.0"
+      }
+    },
+    "vue-template-es2015-compiler": {
+      "version": "1.9.1",
+      "resolved": "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz",
+      "integrity": "sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=",
+      "dev": true
+    },
+    "vue-template-inline": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npm.taobao.org/vue-template-inline/download/vue-template-inline-1.0.1.tgz",
+      "integrity": "sha1-n6xB23vKo/+oCJ5o9ej+VeOu0jU=",
+      "dev": true,
+      "requires": {
+        "gulp-util": "^3.0.8",
+        "through2": "^2.0.3",
+        "vue-template-compiler": "^2.5.16",
+        "vue-template-es2015-compiler": "^1.6.0"
       }
     },
     "ware": {
