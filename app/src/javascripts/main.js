@@ -78,11 +78,11 @@ Vue.component('countdown', {
     data() {
         return {
             // deadline: 'Nov 17, 2020 00:00:00',
-            deadline: 'Nov 17, 2019 00:00:00',
-            days: '神',
-            hours: '秘',
-            minutes: '礼',
-            seconds: '物!',
+            deadline: 'Nov 1, 2020 00:40:00',
+            days: '矢',
+            hours: '志',
+            minutes: '不',
+            seconds: '渝!',
             expired: false
         };
     },
